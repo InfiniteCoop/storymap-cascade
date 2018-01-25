@@ -195,7 +195,7 @@ export default class Header {
       this._node.toggleClass('compact', this._isCompact);
       this._bookmarksNode.toggleClass('bookmarks-hidden', this._isCompact);
       if (! this._isCompact) {
-        this._node.css('background-color', 'rgba(0,0,0,1)');
+        this._node.css('background-color', 'rgba(255,255,255,1)');
       }
     }
     //

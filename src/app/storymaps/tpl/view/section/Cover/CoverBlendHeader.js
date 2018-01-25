@@ -21,7 +21,7 @@ define([
     }
 
     function setCoverBackgroundColor(params) {
-      params.$currentSection.css('background-color', 'rgba(0,0,0,1)');
+      params.$currentSection.css('background-color', 'rgba(255,255,255,1)');
     }
   };
 });

@@ -132,10 +132,10 @@ export default class Cover {
   updateContent(params, initial) {
     if (params.currentSectionIndex == 0) {
       if (params.currentSectionScroll > app.display.sectionHeight / 2) {
-        $('.story-header').css('background-color', 'rgba(0,0,0,' + params.currentSectionScroll / app.display.sectionHeight + ')');
+        $('.story-header').css('background-color', 'rgba(255,255,255,' + params.currentSectionScroll / app.display.sectionHeight + ')');
       }
       else {
-        $('.story-header').css('background-color', 'rgba(0,0,0,0)');
+        $('.story-header').css('background-color', 'rgba(255,255,255,0)');
       }
     }
 
